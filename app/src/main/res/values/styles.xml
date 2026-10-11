@@ -1,0 +1,20 @@
+<resources>
+    <style name="Theme.CommonGoodsBase" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:fontFamily">@font/google_sans_regular</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/paper</item>
+        <item name="android:colorBackground">@color/paper</item>
+        <item name="android:textColorPrimary">@color/ink</item>
+        <item name="android:textColorSecondary">@color/muted</item>
+        <item name="android:colorControlNormal">@color/muted</item>
+    </style>
+    <style name="Theme.CommonGoods" parent="Theme.CommonGoodsBase" />
+    <style name="LabButton" parent="android:style/Widget.Material.Button.Borderless">
+        <item name="android:fontFamily">@font/google_sans_bold</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/accent</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+</resources>

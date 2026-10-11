@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:paddingHorizontal="24dp" android:paddingVertical="16dp" android:gravity="center_vertical"
+        android:drawableStart="@drawable/ic_common_goods" android:drawablePadding="12dp"
+        android:text="@string/brand" android:fontFamily="@font/sora_bold" android:includeFontPadding="false"
+        android:textSize="18sp" android:textColor="@color/ink" />
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/rule" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"
+        android:fillViewport="false" android:clipToPadding="false">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="24dp">
+            <TextView android:id="@+id/screen_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/saved" android:textSize="28sp" android:fontFamily="@font/sora_bold"
+                android:textColor="@color/ink" android:includeFontPadding="false" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/saved_count" android:textSize="16sp" android:textColor="@color/muted"
+                android:layout_marginTop="8dp" android:includeFontPadding="false" />
+            <ImageView android:id="@+id/product_photo" android:layout_width="match_parent" android:layout_height="192dp"
+                android:layout_marginTop="24dp" android:src="@drawable/product_camera" android:scaleType="fitCenter"
+                android:background="@drawable/photo_background"
+                android:importantForAccessibility="no" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" android:text="@string/camera" android:textSize="24sp"
+                android:fontFamily="@font/google_sans_bold" android:textColor="@color/ink" android:includeFontPadding="false" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" android:text="@string/saved_note" android:textSize="16sp"
+                android:textColor="@color/muted" android:includeFontPadding="false" />
+            <View android:layout_width="match_parent" android:layout_height="1dp"
+                android:layout_marginVertical="24dp" android:background="@color/rule" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:text="@string/availability" android:textSize="14sp" android:textColor="@color/muted"
+                android:includeFontPadding="false" />
+            <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="6dp" android:text="@string/connecting" android:textSize="22sp"
+                android:textColor="@color/ink" android:fontFamily="@font/google_sans_bold"
+                android:includeFontPadding="false" android:accessibilityLiveRegion="polite" />
+            <Button android:id="@+id/check_availability" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" android:minHeight="52dp" android:paddingHorizontal="16dp" android:paddingVertical="12dp"
+                android:text="@string/check_availability" android:textSize="16sp" android:textAllCaps="false"
+                android:fontFamily="@font/google_sans_bold" android:includeFontPadding="false"
+                android:textColor="@color/paper" android:background="@drawable/primary_action" android:stateListAnimator="@null" />
+        </LinearLayout>
+    </ScrollView>
+    <View android:layout_width="match_parent" android:layout_height="1dp" android:background="@color/rule" />
+    <Button android:id="@+id/lab_controls_toggle" style="@style/LabButton"
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lab_controls"
+        android:gravity="start|center_vertical" android:paddingHorizontal="24dp" android:background="@color/panel" />
+    <staff.android.runtime.LabControlsScrollView android:id="@+id/lab_controls" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:visibility="gone" android:background="@color/panel">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:paddingHorizontal="24dp" android:paddingBottom="20dp">
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lab_heading"
+                android:textSize="12sp" android:textColor="@color/muted" />
+            <Button android:id="@+id/check_blocking" style="@style/LabButton" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="@string/check_blocking" android:gravity="start|center_vertical" />
+            <Button android:id="@+id/check_worker" style="@style/LabButton" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="@string/check_worker" android:gravity="start|center_vertical" />
+            <Button android:id="@+id/check_callback" style="@style/LabButton" android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:text="@string/check_callback" android:gravity="start|center_vertical" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/lab_hint"
+                android:textSize="13sp" android:textColor="@color/muted" android:layout_marginTop="8dp" />
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/events_heading"
+                android:textSize="14sp" android:fontFamily="@font/google_sans_bold" android:textColor="@color/ink"
+                android:layout_marginTop="16dp" />
+            <TextView android:id="@+id/event_text" android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="13sp" android:textColor="@color/muted" android:layout_marginTop="6dp" />
+        </LinearLayout>
+    </staff.android.runtime.LabControlsScrollView>
+</LinearLayout>

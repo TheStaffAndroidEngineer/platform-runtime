@@ -1,0 +1,11 @@
+{
+  "source": "Book workspace labs/05-platform-runtime/src/main/kotlin",
+  "date": "2026-10-11",
+  "reason": "Standalone Git checkout must not require parent workspace source.",
+  "files": {
+    "staff/android/runtime/ControlledPresenceSource.kt": "d132e313385081d62d8c6f074f22dc2758f3233a558fa7e0abe27b6e786c3336",
+    "staff/android/runtime/Mechanisms.kt": "54ed23b6a96ab6f6438eac096eea48915194c9b7f139294baee029b13addcc7c",
+    "staff/android/runtime/Main.kt": "09b23cbe7c42d4d7a40c3ac41b538ff14a7358c7ee5d0e5412af8308a49177c3",
+    "staff/android/runtime/Presence.kt": "fef24834fa131922235d0c8a65b797d7a4c907780c57d9631218c9f38717dbd9"
+  }
+}

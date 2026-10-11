@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-07",
+  "purpose": "Common Goods identity for Chapter5 availability checkpoint",
+  "upstream_provenance": "../../commerce-app/assets/provenance.json",
+  "assets": [
+    {
+      "path": "app/src/main/res/font/google_sans_regular.ttf",
+      "source": "../compose-migration/app/src/main/res/font/google_sans_regular.ttf",
+      "sha256": "6de36a974bbaaeed26152b378e428ccc3f2295aa58b322ce34052320591971a2"
+    },
+    {
+      "path": "app/src/main/res/font/google_sans_bold.ttf",
+      "source": "../compose-migration/app/src/main/res/font/google_sans_bold.ttf",
+      "sha256": "a61b1cf42b921f0652a22b0b09298398798a172e452d21a4708c89b03693f3bc"
+    },
+    {
+      "path": "app/src/main/res/font/sora_bold.ttf",
+      "source": "../compose-migration/app/src/main/res/font/sora_bold.ttf",
+      "sha256": "109b00bb9e7804263c1d5fb0c725fe740e30cb83166c2023be52813d8c1c4fab"
+    },
+    {
+      "path": "app/src/main/res/drawable-nodpi/product_camera.png",
+      "source": "../compose-migration/app/src/main/res/drawable-nodpi/product_camera.png",
+      "sha256": "cd2f09a53bc70bf4163c1b3e6ba6a8d596ca945face96e6b984c1c3c7df8b440"
+    },
+    {
+      "path": "app/src/main/res/drawable/ic_common_goods.xml",
+      "source": "../compose-migration/app/src/main/res/drawable/ic_common_goods.xml",
+      "sha256": "bad7de101b2ac3d64464eb431d16052fd275f271b0e921aaac0cc13791bc8c22"
+    },
+    {
+      "path": "app/src/main/assets/licenses/google-sans-OFL.txt",
+      "source": "../compose-migration/app/src/main/assets/licenses/google-sans-OFL.txt",
+      "sha256": "2b75ef20f13d83a7514aee452c4782c20cdc9ff2dee17600f44d37a06d4fb958"
+    },
+    {
+      "path": "app/src/main/assets/licenses/sora-OFL.txt",
+      "source": "../compose-migration/app/src/main/assets/licenses/sora-OFL.txt",
+      "sha256": "ba0b9729c9428ba79a0459ab8ec575791b51509dbec213e383d0316d37fec299"
+    }
+  ],
+  "notes": [
+    "Original unbranded product photograph and brand symbol reused unchanged from the Common Goods checkpoint; no retailer campaign assets copied.",
+    "Font licenses packaged in APK assets/licenses. Book interiors retain their separate approved Google Sans/JetBrains Mono typography."
+  ]
+}

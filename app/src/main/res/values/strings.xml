@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Common Goods · Availability</string>
+    <string name="brand">Common Goods</string>
+    <string name="saved">Saved</string>
+    <string name="saved_count">1 saved item</string>
+    <string name="camera">Camera</string>
+    <string name="saved_note">Saved for later</string>
+    <string name="availability">Availability</string>
+    <string name="connecting">Connecting</string>
+    <string name="check_availability">Check availability</string>
+    <string name="lab_controls">Lab controls</string>
+    <string name="lab_close">Close lab controls</string>
+    <string name="lab_heading">Chapter 5 · Execution and lifetime</string>
+    <string name="check_blocking">Check: blocks Main</string>
+    <string name="check_worker">Check: worker + reply</string>
+    <string name="check_callback">Check: remote callback</string>
+    <string name="lab_hint">Compare the three paths using the same local Camera lookup. The normal Check availability action uses worker + reply.</string>
+    <string name="events_heading">Observed events</string>
+</resources>
